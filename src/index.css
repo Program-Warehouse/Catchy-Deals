@@ -1,0 +1,34 @@
+/* FONT */
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700&display=swap");
+@import url("https://fonts.cdnfonts.com/css/neue-haas-grotesk-text-pro");
+
+* {
+  /* font-family: "Montserrat", sans-serif; */
+  font-family: "Neue Haas Grotesk Text Pro", sans-serif;
+  /* font-size: 96%; */
+}
+
+.nue {
+  /* font-family: "Montserrat", sans-serif; */
+  font-family: "Neue Haas Grotesk Text Pro", sans-serif;
+  /* font-size: 96%; */
+}
+
+html {
+  overflow: scroll;
+  overflow-x: hidden;
+}
+::-webkit-scrollbar {
+  width: 0px;  
+  /* Remove scrollbar space */
+  background: transparent;  
+  /* Optional: just make scrollbar invisible */
+}
+/* Optional: show position indicator in red */
+::-webkit-scrollbar-thumb {
+  background: #ff0000;
+}
+
+.cborder {
+  border-radius: 50px;
+}
